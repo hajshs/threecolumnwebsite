@@ -20,6 +20,9 @@ body {
     width: 100vw;
     background-image: url(images/bg2.png);
     background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -41,4 +44,38 @@ body {
     color: #DB202C;
     font-size: 42px;
     font-family: "Bebas Neue", sans-serif;
+}
+#content {
+    display: flex;
+    height: 700px;
+    width: 75vw;
+    border: 1px solid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#castsTitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-size: 32px;
+    font-family: dairyday;
+    color: white;
+}
+#casts {
+    height: 600px;
+    width: 80%;
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.castBox {
+    border: 1px solid;
+    height: 270px;
+    width: 400px;
 }
